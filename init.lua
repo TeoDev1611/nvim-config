@@ -1,0 +1,7 @@
+require("plugins")
+require("config")
+require("shorcuts")
+require("tree")
+require("telescope")
+require("multiconfig")
+require("barbar")
