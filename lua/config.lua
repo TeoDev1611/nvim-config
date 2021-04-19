@@ -12,4 +12,4 @@ cmd('set showcmd')
 cmd('set showmatch')
 cmd('set noshowmode')
 vim.g.mapleader = ' '
-cmd('colorscheme gruvbox')
+cmd('colorscheme gruvbox-material')

@@ -1,4 +1,3 @@
-
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
@@ -24,24 +23,26 @@ return require('packer').startup(function()
   --LangSupport
   use 'rust-lang/rust.vim'
   use {'fatih/vim-go', run =':GoUpdateBinaries' }
-  --Line
-  use 'vim-airline/vim-airline'
-  use 'vim-airline/vim-airline-themes'
   --IntellijSense
   use {'neoclide/coc.nvim', branch = "release"}
   --Fuzzy Search
   use {
   'nvim-telescope/telescope.nvim',
   requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
-}
+  }
   --Extra term
   use 'voldikss/vim-floaterm'
   --Cursors
   use {'mg979/vim-visual-multi', branch='master'}
   --Python
   use 'jeetsukumaran/vim-pythonsense' 
-  --TopBar
-  use 'romgrk/barbar.nvim'
   --Dashboard
   use 'glepnir/dashboard-nvim'
+  --Line
+  use 'vim-airline/vim-airline'
+  use 'vim-airline/vim-airline-themes'
+  --TopBar
+  use 'romgrk/barbar.nvim'
+  use 'kien/rainbow_parentheses.vim'
 end)
+
