@@ -42,4 +42,6 @@ return require('packer').startup(function()
   use 'jeetsukumaran/vim-pythonsense' 
   --TopBar
   use 'romgrk/barbar.nvim'
+  --Dashboard
+  use 'glepnir/dashboard-nvim'
 end)
