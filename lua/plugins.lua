@@ -6,16 +6,17 @@ return require('packer').startup(function()
   -- Themes
   use 'morhetz/gruvbox'
   use 'sainnhe/gruvbox-material'
+  use 'marko-cerovac/material.nvim'
   --Pairs
   use 'jiangmiao/auto-pairs'
   --Syntax
-  use 'sheerun/vim-polyglot'
+  use {'nvim-treesitter/nvim-treesitter', run= ":TSUpdate"}
   --Git
   use 'tpope/vim-fugitive'
   --Gitlens
   use 'APZelos/blamer.nvim'
   --Line
-  use {'lukas-reineke/indent-blankline.nvim', requires = 'Yggdroot/indentLine.'}
+  use {'lukas-reineke/indent-blankline.nvim'}
   --Tree
   use {'kyazdani42/nvim-tree.lua', requires = 'kyazdani42/nvim-web-devicons'}
   --Comment
@@ -23,8 +24,6 @@ return require('packer').startup(function()
   --LangSupport
   use 'rust-lang/rust.vim'
   use {'fatih/vim-go', run =':GoUpdateBinaries' }
-  --IntellijSense
-  use {'neoclide/coc.nvim', branch = "release"}
   --Fuzzy Search
   use {
   'nvim-telescope/telescope.nvim',
@@ -39,10 +38,19 @@ return require('packer').startup(function()
   --Dashboard
   use 'glepnir/dashboard-nvim'
   --Line
-  use 'vim-airline/vim-airline'
-  use 'vim-airline/vim-airline-themes'
+  use {
+    'hoob3rt/lualine.nvim',
+    requires = {'kyazdani42/nvim-web-devicons', opt = true}
+  }
   --TopBar
   use 'romgrk/barbar.nvim'
   use 'kien/rainbow_parentheses.vim'
+  -- JumpMotion
+  use 'zsugabubus/vim-jumpmotion'
+  -- Complete
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/nvim-compe'
+  use 'onsails/lspkind-nvim'
+  use 'kabouzeid/nvim-lspinstall'
 end)
 
