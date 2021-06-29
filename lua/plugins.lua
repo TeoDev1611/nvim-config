@@ -48,9 +48,6 @@ return require('packer').startup(function()
   -- JumpMotion
   use 'zsugabubus/vim-jumpmotion'
   -- Complete
-  use 'neovim/nvim-lspconfig'
-  use 'hrsh7th/nvim-compe'
-  use 'onsails/lspkind-nvim'
-  use 'kabouzeid/nvim-lspinstall'
+  use {'neoclide/coc.nvim', branch = 'release'}
 end)
 

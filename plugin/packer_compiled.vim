@@ -84,6 +84,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\blamer.nvim"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim"
+  },
   ["dashboard-nvim"] = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim"
@@ -100,10 +104,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim"
   },
-  ["lspkind-nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim"
@@ -115,18 +115,6 @@ _G.packer_plugins = {
   nerdcommenter = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdcommenter"
-  },
-  ["nvim-compe"] = {
-    loaded = true,
-    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-compe"
-  },
-  ["nvim-lspconfig"] = {
-    loaded = true,
-    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig"
-  },
-  ["nvim-lspinstall"] = {
-    loaded = true,
-    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
