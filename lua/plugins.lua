@@ -49,5 +49,12 @@ return require('packer').startup(function()
   use 'zsugabubus/vim-jumpmotion'
   -- Complete
   use {'neoclide/coc.nvim', branch = 'release'}
+  use 'elixir-editors/vim-elixir'
+  use 'TeoDev1611/deno.vim'
+  use 'editorconfig/editorconfig-vim'
+  use 'pangloss/vim-javascript'    
+  use 'leafgarland/typescript-vim' 
+  use 'jparise/vim-graphql'
+  use 'NoahTheDuke/vim-just'
 end)
 
