@@ -1,0 +1,28 @@
+alias win := setup-windows
+alias win-install := install-neovim-win
+alias linux := setup-linux
+alias macos := setup-macos
+
+setup-windows:
+  mkdir %APPDATA%/Local/nvim
+  cd %APPDATA/Local/nvim
+  git clone https://github.com/TeoDev1611/NeoVim-Config.git .
+  echo "Cloned the configuration :D"
+
+install-neovim-win:
+  scoop --version
+  scoop bucket add neovim-dev https://github.com/wsdjeg/scoop-neovim-dev.git
+  scoop install neovim
+  echo "Installed neovim Yey!"
+
+setup-linux:
+  mkdir -p $HOME/.config/nvim
+  cd $HOME/.config/nvim
+  git clone https://github.com/TeoDev1611/NeoVim-Config.git .
+  echo "Cloned the configuration :D"
+
+setup-macos:
+  mkdir -p $HOME/.config/nvim
+  cd $HOME/.config/nvim
+  git clone https://github.com/TeoDev1611/NeoVim-Config.git .
+  echo "Cloned the configuration :D"
