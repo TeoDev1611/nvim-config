@@ -92,6 +92,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim"
   },
+  ["deno.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\deno.vim"
+  },
+  ["editorconfig-vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\editorconfig-vim"
+  },
   gruvbox = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox"
@@ -152,6 +160,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim"
   },
+  ["typescript-vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\typescript-vim"
+  },
+  ["vim-elixir"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-elixir"
+  },
   ["vim-floaterm"] = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-floaterm"
@@ -164,9 +180,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-go"
   },
+  ["vim-graphql"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-graphql"
+  },
+  ["vim-javascript"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-javascript"
+  },
   ["vim-jumpmotion"] = {
     loaded = true,
     path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-jumpmotion"
+  },
+  ["vim-just"] = {
+    loaded = true,
+    path = "C:\\Users\\Usuario1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-just"
   },
   ["vim-pythonsense"] = {
     loaded = true,

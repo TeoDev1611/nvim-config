@@ -8,4 +8,5 @@ require("barbar")
 require("dashboard")
 require("colors")
 require("parentheses")
-vim.cmd("source ./vimscript/main.vim")
+vim.cmd("source ~/AppData/Local/nvim/vimscript/main.vim")
+
